@@ -1,0 +1,23 @@
+Welcome to the Data Dictionary!
+===================================================
+This page provides descriptions for all of the fields in Looker as well as their SQL or LookML definitions. 
+
+The documentation is broken out at the entity level. 
+
+Under each entity, one can browse the name of the fields, their aliases or pretty names, a description for each field, and finally the SQL or LookML definition for each field.
+
+Entities:
+==================
+
+.. toctree::
+  :titlesonly:
+  :maxdepth: 1
+
+  opportunity
+  table
+
+
+Indices and tables
+==================
+
+* :ref:`search`

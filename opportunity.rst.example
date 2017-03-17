@@ -1,0 +1,128 @@
+``opportunity``
+==============
+An opportunity is the central unit for capturing "deals," be it new business, a renewal, or an adjustment to some existing deal. Opportunity contains most of the contract information, including subscription time boundaries, deal amount, etc.
+
+
+``id``
+""""""
+- **Alias**:
+- **Description**: This is the unique identifier for a given Salesforce opportunity. It is the primary key of this table.
+- **Data Type**: ``string``
+- **Definition**: ``${TABLE}.id``
+
+``created_date``
+""""""
+- **Alias**:
+- **Description**: This is the day that the opportunity was created.
+- **Definition**: ``${TABLE}.created_date``
+
+``account_id``
+""""""
+- **Alias**: Account ID
+- **Description**: None
+- **Data Type**: ``string``
+- **Definition**: ``${TABLE}.ACCOUNT_ID``
+
+
+``active_bytes``
+""""""
+- **Alias**: Active Bytes
+- **Description**: None
+- **Data Type**: ``number``
+- **Definition**: ``${TABLE}.stat_bytes``
+
+
+``cluster_by_keys``
+""""""
+- **Alias**: Cluster By Keys
+- **Description**: None
+- **Data Type**: ``string``
+- **Definition**: ``${TABLE}.CLUSTER_BY_KEYS``
+
+
+``comment``
+""""""
+- **Alias**: Comment
+- **Description**: None
+- **Data Type**: ``string``
+- **Definition**: ``${TABLE}.COMMENT``
+
+
+``created_date``
+""""""
+- **Alias**: Created Date
+- **Description**: None
+- **Data Type**: ``date_date``
+- **Definition**: ``N/A``
+
+
+``created_month``
+""""""
+- **Alias**: Created Month
+- **Description**: None
+- **Data Type**: ``date_month``
+- **Definition**: ``N/A``
+
+
+``created_raw``
+""""""
+- **Alias**: Created Raw
+- **Description**: None
+- **Data Type**: ``date_raw``
+- **Definition**: ``N/A``
+
+
+``created_time``
+""""""
+- **Alias**: Created Time
+- **Description**: None
+- **Data Type**: ``date_time``
+- **Definition**: ``N/A``
+
+
+``created_week``
+""""""
+- **Alias**: Created Week
+- **Description**: None
+- **Data Type**: ``date_week``
+- **Definition**: ``N/A``
+
+
+``deleted_date``
+""""""
+- **Alias**: Deleted Date
+- **Description**: None
+- **Data Type**: ``date_date``
+- **Definition**: ``N/A``
+
+
+``deleted_month``
+""""""
+- **Alias**: Deleted Month
+- **Description**: None
+- **Data Type**: ``date_month``
+- **Definition**: ``N/A``
+
+
+``deleted_raw``
+""""""
+- **Alias**: Deleted Raw
+- **Description**: None
+- **Data Type**: ``date_raw``
+- **Definition**: ``N/A``
+
+
+``deleted_time``
+""""""
+- **Alias**: Deleted Time
+- **Description**: None
+- **Data Type**: ``date_time``
+- **Definition**: ``N/A``
+
+
+``deleted_week``
+""""""
+- **Alias**: Deleted Week
+- **Description**: None
+- **Data Type**: ``date_week``
+- **Definition**: ``N/A``
